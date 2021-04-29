@@ -132,7 +132,7 @@ generateRandomNumber(10)
         return number;
     })
     .then(doubleNumber)
-    .then(logIfSmall)
+    .then(logIfNotSmall)
     .catch(error => console.error("Caught Error: "  + error.message))
 
 ``` 
