@@ -121,7 +121,7 @@ function doubleNumber(num) {
 
 function logIfSmall(num) {
     if (num > 15) {
-        throw new Error("That number is too big")
+        throw new Error("That's too small")
     } else 
     console.log("The doubled number is " + num)
 }
