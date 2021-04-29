@@ -119,7 +119,7 @@ function doubleNumber(num) {
     })
 }
 
-function logIfSmall(num) {
+function logIfNotSmall(num) {
     if (num > 15) {
         throw new Error("That's too small")
     } else 
