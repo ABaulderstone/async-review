@@ -119,9 +119,9 @@ function doubleNumber(num) {
     })
 }
 
-function logIfSmall(num) {
+function logIfNotSmall(num) {
     if (num > 15) {
-        throw new Error("That number is too big")
+        throw new Error("That's too small")
     } else 
     console.log("The doubled number is " + num)
 }
@@ -132,7 +132,7 @@ generateRandomNumber(10)
         return number;
     })
     .then(doubleNumber)
-    .then(logIfSmall)
+    .then(logIfNotSmall)
     .catch(error => console.error("Caught Error: "  + error.message))
 
 ``` 
